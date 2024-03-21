@@ -53,7 +53,7 @@ pipeline {
 }
 
 def deployToTomcat(tomcatIP, username, password, tomcatURL, contextPath, environment) {
-    def warFileName = 'target/boxfuse-sample-java-war-hello.war'
+    def warFileName = 'target/simple-ecommerce-website-java.git'
 
     // Deploy the WAR file using curl
     sh """
