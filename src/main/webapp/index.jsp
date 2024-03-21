@@ -3,7 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
 
-<title>Sign in into Dev/Fe server</title>
+<title>Sign in</title>
 <style type="text/css">
 body {
 	background-color: #F3EBF6;
@@ -117,7 +117,7 @@ a {
 </head>
 <body>
 	<div class="main">
-		<p class="sign" align="center">Sign in-Yugesh</p>
+		<p class="sign" align="center">Sign in into Dev/Fe server</p>
 		<form action="Controller_Login" method="post" class="form1">
 			<input class="un" type="text" align="center" placeholder="Username" name="username">
 			<input class="pass" type="password" align="center" placeholder="Password" name="Password">
