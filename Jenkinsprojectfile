@@ -24,7 +24,7 @@ pipeline {
                 expression { params.BRANCH_NAME == 'Dev/Fe' }
             }
             steps {
-                deployToTomcat('13.235.13.178', 'tomcat', 'tomcat', 'http://13.235.13.178:8080/manager/text', '/simple-ecommerce-website-java', 'Dev')
+                deployToTomcat('100.26.3.17', 'tomcat', 'tomcat', 'http://100.26.3.17:8080/manager/text', '/simple-ecommerce-website-java', 'Dev')
             }
         }
         stage("Deploy to Test") {
